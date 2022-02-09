@@ -27,15 +27,15 @@ search:{
         marginLeft: theme.spacing(3),
         width: 'auto',
     },
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
 },
 SearchIcon:{
     padding: theme.spacing(0, 2),
     height: '100%',
     position: 'absolute',
     PointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
 },
 inputRoot: {
     color: 'inherit',
